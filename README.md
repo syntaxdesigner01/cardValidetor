@@ -21,12 +21,13 @@ The following regex patterns are used for validation:
 3. **American Express**: `^3[47][0-9]{13}$`
    - Matches American Express card numbers that start with `34` or `37` and have 15 digits.
 
-4. **Discover**: `^6(?:011|22[2-9]|[4-9][0-9])[0-9]{12}$`
-   - Matches Discover card numbers that start with `6011`, `622`, `64`, or `65` and have 16 digits.
-
-5. **Verve**: `^(506|507|508|509|650)[0-9]{13}$`
+4. **Verve**: `^(506|507|508|509|650)[0-9]{13}$`
    - Matches Verve card numbers that start with `506`, `507`, `508`, `509`, or `650` and have 16 digits.
 
 ## Usage
 
 To validate a credit card number, call the `validateCreditCard` function with the card number as a string. The function will return an object indicating whether the card is valid and its type.
+
+## example
+```javascript
+validateCreditCard("4111111111111111"); // returns { valid: true, type: "number" }
