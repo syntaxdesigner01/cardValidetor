@@ -29,5 +29,6 @@ The following regex patterns are used for validation:
 To validate a credit card number, call the `validateCreditCard` function with the card number as a string. The function will return an object indicating whether the card is valid and its type.
 
 ## example
+
 ```javascript
-validateCreditCard("4111111111111111"); // returns { valid: true, type: "number" }
+validateCreditCard("4111111111111111"); // returns { valid: true, type: "Visa" }
