@@ -1,4 +1,4 @@
-// cards to test details
+//list of cards to test 
 const cardListNumbers = [
     {
         cardNumber: '4111 1111 1111 1111',
@@ -22,7 +22,7 @@ const cardListNumbers = [
     }
 ]
 
-// function to validate credit card number
+
 function validateCreditCard(cardNumber) {
 
     cardNumber = cardNumber.replace(/[\s-]/g, '');
@@ -66,7 +66,6 @@ function validateCreditCard(cardNumber) {
 }
 
 
-// Test the function
 const result = validateCreditCard(cardListNumbers[4].cardNumber);
 
 console.log(result)
