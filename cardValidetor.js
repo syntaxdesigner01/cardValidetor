@@ -1,3 +1,7 @@
+/**
+ * Please check the readme.md file for proper explanation of my code Thanks ❤
+ */
+
 //list of cards to test 
 const cardListNumbers = [
     {
